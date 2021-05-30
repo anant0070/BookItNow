@@ -1,0 +1,65 @@
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: .5rem;
+    padding-bottom: .5rem;}
+ .bg-custom{
+    background-color: black;
+     
+}
+
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-link{
+    color: white !important;
+    font-weight: 500 !important;
+}
+
+.btn-custom{
+    background-color: #E50914 !important;
+    font-weight: 800 !important;
+    color:black !important;
+     
+}
+
+.btn-collection{
+     
+    max-width: 241px;
+    margin:  2em auto;
+}
+
+.img-card{
+    margin: 5px 0px;
+    transition: .1s;
+}
+.img-card:hover{
+    transform: scale(1.04);
+    cursor: pointer;
+}
+
+
+.btn-collection-playing{
+     
+    max-width: 110px;
+    margin:  2em auto;
+}
+.thanks{
+    padding: 10px;
+text-align: center;
+color:white;}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 27px;
+    width: 100%;
+    background-color: rgb(129, 6, 6);
+    color: white;
+    text-align: center;
+ }
